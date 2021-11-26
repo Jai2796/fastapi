@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # from .schemas import Poster
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 origins = ["*"]
 
